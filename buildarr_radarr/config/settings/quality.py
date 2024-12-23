@@ -20,11 +20,9 @@ Quality settings configuration.
 from __future__ import annotations
 
 import json
-
 from typing import Any, Dict, Mapping, Optional, cast
 
 import radarr
-
 from buildarr.config import ConfigTrashIDNotFoundError
 from buildarr.state import state
 from buildarr.types import TrashID
@@ -35,9 +33,9 @@ from ...api import radarr_api_client
 from ...secrets import RadarrSecrets
 from ..types import RadarrConfigBase
 
-QUALITYDEFINITION_MIN_MAX = 398
-QUALITYDEFINITION_PREFERRED_MAX = 399
-QUALITYDEFINITION_MAX = 400
+QUALITYDEFINITION_MIN_MAX = 1998
+QUALITYDEFINITION_PREFERRED_MAX = 1999
+QUALITYDEFINITION_MAX = 2000
 
 
 class QualityDefinition(RadarrConfigBase):
